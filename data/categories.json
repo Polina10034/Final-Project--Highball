@@ -1,0 +1,45 @@
+{
+    "prefernces":[
+    {   "category": "Food",
+        "type": ["Thai", "French", "Pizza", "Italian", "Sushi", "Dinner"]
+    },
+    {
+        "category": "Drinks",
+        "type":["Wine", "Beer", "Juic Bar", "Cocktails","Bars", "Vinnery"]
+    }
+],
+    
+ "cocktailType": [
+            { 
+                "id": "111",
+                "name": "BOBO",
+                "discription": "Cobanian Rum, dragon fruite syroupe litte touch of lime and ginger beer.",
+                "price": " 45 ₪",
+                "url": "images/costume1.jpg"
+                
+            },
+            {
+                "id": "222",
+                "name": "Soft",
+                "discription": "Handrix Gin, fresh lime juice, basilic and sugar pouder.",
+                "price": " 35 ₪",
+                "url": "images/costume2.jpeg"
+            },
+            {
+                "id": "333",
+                "name":"Dragon",
+                "discription": "Vodka, Strawberry  Jam, peanut butter and jelly bears.",
+                "price": " 55 ₪",
+                "url":"images/costume3.jpg"
+            },
+            {
+              "id": "444",
+              "name": "Mango Qu",
+              "discription": "Mangu syroupe, Cava, Cream de casisand a drop of Hyiring.",
+              "price": " 35 ₪"  ,
+              "url":"images/costume4.jpg"
+            }
+    ]
+
+
+}

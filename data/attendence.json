@@ -1,0 +1,9 @@
+[{"day":"15/07/2019","date":4,"meeting":3,"dinning":"5 - 25%","party":0,"cocktail":4,"other":4,"total":20},
+{"day":"16/07/2019","date":"14 - 100%","meeting":0,"dinning":0,"party":0,"cocktail":0,"other":0,"total":14},
+{"day":"17/07/2019","date":5,"meeting":6,"dinning":8,"party":0,"cocktail":"20 - 50%","other":1,"total":40},
+{"day":"18/07/2019","date":10,"meeting":3,"dinning":4,"party":"20 - 46%","cocktail":13,"other":5,"total":55},
+{"day":"19/07/2019","date":4,"meeting":0,"dinning":2,"party":"28 - 50%","cocktail":15,"other":7,"total":56},
+{"day":"20/07/2019","date":7,"meeting":0,"dinning":4,"party":0,"cocktail":"10 - 33%","other":9,"total":30},
+{"day":"21/07/2019","date":1,"meeting":3,"dinning":2,"party":0,"cocktail":1,"other":"4 - 40%","total":11},
+{"day":"22/07/2019","date":5,"meeting":2,"dinning":"6 - 28","party":0,"cocktail":3,"other":4,"total":20}]
+

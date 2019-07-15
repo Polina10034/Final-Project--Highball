@@ -1,0 +1,789 @@
+* {
+  margin: 0px auto;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  
+}
+header, body, main, nav, section {
+  display: block;
+}
+.container {
+  margin-top: 50px;
+}
+.clearfix {
+  overflow: auto;
+}
+/* log-in */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #787881;
+}
+#login .userPhoto {
+  height: 300px;
+  width: 300px;
+}
+#login input:hover,
+#login .btn:hover {
+  opacity: 1;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+#login input,
+#login .btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+/* sigh-up */
+#signup {
+  margin-bottom: 150px;
+}
+#signup .userPhoto {
+  height: 300px;
+  width: 300px;
+}
+#signup .selected {
+  background-color: #1e90ff;
+  color: #1e90ff;
+}
+.btn-outline-primary{
+  color: #3b3535;
+  border-color: #ced4da;
+}
+#signup .notSelected {
+  color: #ffffff;
+}
+#signup #myProgress {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: .25rem;
+}
+#signup #myBar {
+  width: 30%;
+  height: 10px;
+  background-color: #3b3535;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  float: left;
+  border-radius: .25rem;
+}
+/* welcome */
+#welcome {
+  background-color: hsla(0, 23%, 90%, 0.678);
+  margin-bottom: 50px;
+}
+#welcome header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#welcome header > a {
+  margin-left: 30%;
+}
+#welcome .welcomeSection {
+  margin-top: 4px;
+  width: 100%;
+  height: 190px;
+  border: 2px;
+  
+}
+
+.eventName{
+  padding-left: 50%;
+  position: relative;
+}
+
+#eventImg{
+  position: relative;
+  margin-top: -110px;
+  margin-left: 62px;
+}
+#bin{
+  position: relative;
+}
+#div0 a{
+  color: #000000 !important;
+}
+#div1{
+  position: absolute;
+}
+.welcomeSection img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 20px;;
+}
+.welcomeSection > i {
+  margin: 20px;
+}
+#welcome i {
+  float: left;
+}
+#welcome section > a {
+  margin: 20px;
+}
+#welcome nav {
+  margin-bottom: 20px;
+  height: 10%;
+  background-color: #3b3535;
+  border: none !important; 
+  width: 100% !important;
+}
+#welcome a{
+  color: #f0f8ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#welcome .userPhoto, #activity img {
+  height: 20px;
+  width: 20px;
+  z-index: 1;
+  float: left;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+#welcome .userPhoto:hover {
+  border-radius: 50%;
+  display: inline;
+  transform: scale(2);
+  z-index: 1;
+}
+/* #welcome nav{
+  width: 100% !important;
+} */
+
+
+/* vesper */
+#vesperPage {
+  background-color: hsla(0, 23%, 90%, 0.678);
+}
+#vesperPage header {
+  height: 80px;
+}
+#vesperPage header > a > i {
+  margin-top: 20px;
+  float: left;
+  z-index: 5;
+}
+#vesperPage header > #logo {
+  height: 70px;
+  width: 100px;
+  float: right;
+}
+#vesperPage img {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+#vesperPage section {
+  margin-top: 4px;
+  min-height: 200px;
+  width: 100%;
+}
+#vesperPage i {
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#vesperPage h2 {
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 10%;
+}
+
+/* vesper Cocktails Page */
+#vesperCocktailsPage {
+  background-color: hsla(0, 23%, 90%, 0.678);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#vesperCocktailsPage header {
+  margin-top: 20px;
+  height: 80px;
+}
+#vesperCocktailsPage header > #logo{
+  margin-bottom: 20px;
+  height: 70px;
+  width: 100px;
+  float: right;
+}
+#vesperCocktailsPage header > a > i {
+  margin-top: 20px;
+  float: left;
+  z-index: 5;
+}
+#vesperCocktailsPage section > img {
+  width: 100%;
+  height: 200px;
+}
+#vesperCocktailsPage section {
+  min-height: 202px;
+  width: 100%;
+
+}
+
+#vesperCocktailsPage li {
+  min-height: 202px;
+  width: 100%;
+
+}
+#vesperCocktailsPage i {
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#vesperCocktailsPage h3 {
+  text-align: center;
+  padding-top: 30px;
+}
+#vesperCocktailsPage p {
+  text-align: center;
+  font-size: 20px;
+}
+#vesperCocktailsPage .cocktails img {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#vesperCocktailsPage .cocktails section:hover {
+  background-color: black;
+}
+#vesperCocktailsPage .cocktails p {
+  color: white;
+}
+#vesperCocktailsPage i {
+  margin-right: 10px;
+}
+#vesperCocktailsPage button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.w3lightBox body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+/* Full-width input fields */
+.w3lightBox input[type=text], input[type=password], select {
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0 22px 0;
+  display: inline-block;
+  background: #ffffff;
+}
+/* Add a background color when the inputs get focus */
+.w3lightBox input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for all buttons */
+.w3lightBox button {
+  background-color: #3b3535;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.w3lightBox button:hover {
+  opacity:1;
+}
+/* Float cancel and signup buttons and add an equal width */
+.w3lightBox .cancelbtn, .signupbtn {
+  width: 1000%;
+}
+/* Add padding to container elements */
+.w3lightBox .container {
+  padding: 16px;
+  margin: auto;
+  width: 100%;
+}
+/* The Modal (background) */
+.w3lightBox .modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+/* Modal Content/Box */
+.w3lightBox .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+/* Style the horizontal ruler */
+.w3lightBox hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+/* The Close Button (x) */
+.w3lightBox .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.w3lightBox .close:hover,
+.w3lightBox .close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+/* Clear floats */
+.w3lightBox .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+     width: 100%;
+  }
+}
+
+
+header, main, footer, nav, aside, section, div{
+  display: block;
+}
+
+body{
+  background-color: hsla(0, 23%, 90%, 0.678);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+main{
+  width: 100%;
+
+}
+header{
+   position: relative;
+   padding-top: 0.1px;
+   width: 100%;
+   height: 130px;
+   height: fit-content;
+
+}
+
+
+.clear{
+  clear: both;
+}
+
+.instructions{
+   text-align: center;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-weight: 500;
+   font-size: 35px; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300);
+
+body, html {
+ padding: 0;
+ margin: 0;
+ height: 100%;
+}
+
+.progress-bar {
+ position: absolute;
+ top: 50%;
+ height: 2px;
+ background: #3b3535;
+}
+
+.done {
+ top: 0;
+ height: 100%;
+ width: 100%;
+ transition: all .33s ease;
+}
+
+.count {
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+ font-weight: 100;
+ font-size: 2em;
+ margin-top: -1.33em;
+ color: hsl(300, 2%, 53%);
+}
+
+#flex-container{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  
+}
+
+#flex-container > div{
+  margin: 5px;
+  background-color: #8d8585bb;
+  font-size: 40px;
+  
+ 
+}
+
+#startCircle{
+  display: none;
+ 
+}
+.gCircle{
+  padding: 30px;
+  border-radius:50%;
+  box-sizing: unset;
+}
+
+.gCircle h6{
+  margin-top: 10%;
+  margin-left: 0%;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #3b3535;
+  position: fixed;
+  bottom: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+.nextbutt{
+  cursor: pointer;
+  float: right;
+  right: 40px;
+  margin-top: 10px;
+  font-size: 35px;
+  width: 100px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #3b3535;
+  color: beige;
+  border: none;
+  display: none;
+}
+
+
+
+@media screen and (min-width: 800.5px){      /*desktop*/
+  #flex-container{
+      width: 60%;
+      margin-right: 25%;
+      margin-left: 25%;
+  }
+  .cover{
+      margin-left: 35%;
+      position: inherit;
+  }
+
+  
+}
+
+@media screen and (max-width: 800px){   /*mobile*/
+
+  #flex-container{
+      margin: 0;
+      width: 100%;
+  }
+
+  .cover{
+      margin-left: 30%;
+  }
+  #welcomePage .instructions{
+    align-items: center;
+    margin: 0px !important;
+
+  }
+}
+
+#welcomePage h1{
+  font-size: 50px;
+  margin-left: -7%;
+}
+#profilePic{
+  width: 250px;
+  height: 250px;
+  margin-left: 40%;
+  margin-top: 40px;
+  
+}
+#welcomePage .nextbutt{
+  display: block;
+}
+
+#vesperCocktailsPage.donebutt {
+  cursor: pointer;
+  float: right;
+  right: 40px;
+  margin-top: 10px;
+  font-size: 35px;
+  width: 100px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsla(0, 23%, 90%, 0.678);
+  color: #000000;;
+  border: none;
+  display: block;
+}
+
+#vesperCocktailsPage h1{
+  align-content: center;
+}
+#logo{
+  background-image: url("../images/1logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 220px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* activity page */
+#activitySection{
+  background-color: #b22222;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin: 15px;
+}
+#activitySection:hover{
+  opacity: 0.7;
+  background-color: gray;
+}
+#activitySection > a > i {
+  margin-top: 30%;
+  margin-left: 35%;
+}
+
+/* choose activity page */
+#chooseActivity section {
+  margin: 20px;
+}
+#chooseActivity img {
+  width: 90%;
+  border-radius: 50px;
+  border-radius: 5%;
+  float: left;
+}
+#imgSection i {
+  float: right;
+}
+
+#activityReminder {
+  float: left;
+  border-radius: 10px;
+  border-radius: 5%;
+  width: 300px;
+  height: 150px;
+  top: 20px;
+}
+#activityReminder img {
+  float: right;
+  bottom: 220px;
+}
+#activityReminder h6 {
+  padding-top: 40px;
+  float: left;
+  z-index: 5;
+}
+
+#adminMainPage, #myPlacesPage {
+  height: 100%;
+}
+#adminMainPage footer, #myPlacesPage footer {
+  display: none;
+}
+#adminMainPage header, #myPlacesPage header {
+  height: 150px;
+  z-index: 1;
+  
+}
+#adminLogo{
+  background-image: url(../images/logoBuisnes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 320px;
+  /* position: fixed; */
+  /* display: block; */
+}
+
+.sidenav {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  /* top: 22.5%; */
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#adminMainPage h2{
+  margin-left: 41%;
+}
+#backImg{
+  height: 300px;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  background-color: hsla(0, 23%, 90%, 0.678);
+  display: block;
+  /* position: fixed; */
+  /* width: 100%;*/
+  overflow-x: hidden;
+  left: 0;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  padding-right: 100px;
+}
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+#myPlacesPage .section1 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  left: 10%;
+}
+#myPlacesPage .section2 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  left: 40%;
+}
+#myPlacesPage .section3 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  left: 70%;
+}
+#myPlacesPage .section4 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  left: 10%;
+  top: 65%;
+}
+#myPlacesPage .section5 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  left: 40%;
+  top: 65%;
+}
+#myPlacesPage .section6 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  left: 70%;
+  top: 65%;
+}
+#myPlacesPage section  > a > img {
+  width: 50%;
+  height: 90%;
+  left: 10%;
+  top: 15%;
+  border-radius: 50% !important;
+}
+#myPlacesPage section  > a > img:hover {
+  opacity: 0.8;
+}
+#myPlacesPage section  > a > h2 {
+  margin-left: 40%;
+  margin-top:10%;
+}
+#myPlacesPage section  > a > i {
+  margin-left: 43%;
+}
+#myPlacesPage main > img {
+  margin-top: 50px;
+}
+#myPlacesPage a > section > img {
+  height: 40%;
+  width: 23%;
+}
+#myPlacesPage a > section > h4 {
+  text-align: center;
+}
+#myPlacesPage a > section > i {
+  margin-left: 47%;
+}
+#atable {
+  margin-left: 11%;
+  width: 88%;
+}
